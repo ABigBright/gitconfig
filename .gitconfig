@@ -10,8 +10,8 @@
 [push]
 	default = matching
 [user]
-	email = briq.qin@xgimi.com
-	name = briq.qin
+	email = someone@qq.com
+	name = someone
 [alias]
 	lg = "log --graph --pretty=format:'%C(red)%h - %C(blue)%an %C(#00c0c0)%s%C(#d09000)(%ar)' --abbrev-commit"
 	ubr = branch -vv
