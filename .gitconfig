@@ -10,10 +10,10 @@
 [push]
 	default = matching
 [user]
-	email = someone@qq.com
-	name = someone
+	email = xxx@qq.com
+	name = xxx
 [alias]
-	lg = "log --graph --pretty=format:'%C(red)%h - %C(blue)%an %C(#00c0c0)%s%C(#d09000)(%ar)' --abbrev-commit"
+	lg = "log --graph --pretty=format:'%C(red)%h - %C(blue)%an %C(#00c0c0)%s%C(#d09000)(%ar)%C(reset)%d' --abbrev-commit"
 	ubr = branch -vv
 	mgt = mergetool
 	dft = difftool
@@ -35,3 +35,7 @@
 	prompt = false
 [mergetool]
 	prompt = false
+[mergetool "meld"]
+	cmd = meld --auto-merge $LOCAL $BASE $REMOTE -o MERGED
+[difftool "meld"]
+	cmd = meld $LOCAL $REMOTE
