@@ -21,6 +21,8 @@
 	st = status
 	mg = merge
 	df = diff
+	rb = rebase
+	plr = pull --rebase
 ; [commit]
 ;     template = ~/git_cfg/git_commit
 [merge]
