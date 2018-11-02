@@ -37,7 +37,7 @@
 	prompt = false
 [mergetool]
 	prompt = false
-[mergetool "meld"]
-	cmd = meld --auto-merge $LOCAL $BASE $REMOTE -o MERGED
-[difftool "meld"]
-	cmd = meld $LOCAL $REMOTE
+;[mergetool "meld"]
+;	cmd = meld --auto-merge $LOCAL $BASE $REMOTE -o MERGED
+;[difftool "meld"]
+;	cmd = meld $LOCAL $REMOTE
