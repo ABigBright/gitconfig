@@ -41,3 +41,6 @@
 ;	cmd = meld --auto-merge $LOCAL $BASE $REMOTE -o MERGED
 ;[difftool "meld"]
 ;	cmd = meld $LOCAL $REMOTE
+[oh-my-zsh]
+	hide-status = 1
+
