@@ -17,12 +17,13 @@
 	ubr = branch -vv
 	mgt = mergetool
 	dft = difftool
-	cmt = commit
+	cmt = commit -s
 	st = status
 	mg = merge
 	df = diff
 	rb = rebase
 	plr = pull --rebase
+        cko = checkout
 ; [commit]
 ;     template = ~/git_cfg/git_commit
 [merge]
