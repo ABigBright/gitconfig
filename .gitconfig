@@ -38,6 +38,7 @@
 	prompt = false
 [mergetool]
 	prompt = false
+	keepBackup = false
 ;[mergetool "meld"]
 ;	cmd = meld --auto-merge $LOCAL $BASE $REMOTE -o MERGED
 ;[difftool "meld"]
